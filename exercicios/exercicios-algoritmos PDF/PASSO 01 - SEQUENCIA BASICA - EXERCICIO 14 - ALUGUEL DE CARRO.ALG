@@ -1,0 +1,32 @@
+Algoritmo "PASSO 01 - SEQUENCIA BASICA - EXERCICIO 14 - ALUGUEL DE CARRO"
+
+Var
+// Seção de Declarações das variáveis 
+   KM_PERCORRIDO,Q_DIAS, VALOR_ALUGUEL_DIA,VALOR_EM_KM,TOTAL_KM,TOTAL_DIA,TOTAL:REAL
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+     ESCREVA ("QUANTOS KM FOI PERCORRIDO?")
+     LEIA (KM_PERCORRIDO)
+     ESCREVA ("QUANTOS DIAS O CARRO FOI ALUGADO?")
+     LEIA (Q_DIAS)
+
+     VALOR_ALUGUEL_DIA <- 90
+     VALOR_EM_KM       <- 0.20
+
+     TOTAL_KM  <- KM_PERCORRIDO * VALOR_EM_KM
+     TOTAL_DIA <- Q_DIAS * VALOR_ALUGUEL_DIA
+     TOTAL     <- TOTAL_KM + TOTAL_DIA
+
+     ESCREVAL ("************************")
+     ESCREVAL ("KM RODADO ",KM_PERCORRIDO,"KM")
+     ESCREVAL ("VALOR DE 1 KM R$:0.20")
+     ESCREVAL ("DIAS ALUGADO ",Q_DIAS)
+     ESCREVAL ("VALOR DE 1 DIA R$:90.00")
+     ESCREVAL ("************************")
+     
+     ESCREVAL ("VOCÊ DEVE PAGAR POR KM RODADO R$:",TOTAL_KM)
+     ESCREVAL ("VOCÊ DEVE PAGAR POR DIAS ALUGADO R$:",TOTAL_DIA)
+     ESCREVAL ("TOTAL A PAGAR R$:",TOTAL)
+Fimalgoritmo

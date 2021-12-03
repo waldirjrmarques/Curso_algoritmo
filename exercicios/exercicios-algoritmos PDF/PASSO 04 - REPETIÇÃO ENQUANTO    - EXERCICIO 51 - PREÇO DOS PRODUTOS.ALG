@@ -1,0 +1,40 @@
+Algoritmo "PASSO 04 - REPETIÇÃO ENQUANTO    - EXERCICIO 51 - PREÇO DOS PRODUTOS"
+
+Var
+   // Seção de Declarações das variáveis
+   CONTADOR: INTEIRO
+   PRODUTO, PRODUTO_MAIOR, PRODUTO_MENOR :CARACTERE
+   PRECO, MAIOR, MENOR :REAL
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   CONTADOR <- 1
+
+
+   ENQUANTO CONTADOR <= 8 FACA
+      ESCREVA ("QUAL O PRODUTO?")
+      LEIA (PRODUTO)
+      ESCREVA ("QUAL O PREÇO DO PRODUTO R$:")
+      LEIA (PRECO)
+      
+      SE  (PRECO > MAIOR) ENTAO
+      MAIOR <- PRECO
+      PRODUTO_MAIOR <- PRODUTO
+      FIMSE
+      
+      SE (PRECO < MENOR) OU (MENOR = 0 ) ENTAO
+      MENOR <- PRECO
+      PRODUTO_MENOR <- PRODUTO
+      FIMSE
+
+      CONTADOR <- CONTADOR + 1
+
+   FIMENQUANTO
+
+   ESCREVAL ("")
+   ESCREVAL ("O PRODUTO COM MAIOR VALOR FOI O ",PRODUTO_MAIOR," R$:",MAIOR)
+   ESCREVAL ("O PRODUTO COM MENOR VALOR FOI O ",PRODUTO_MENOR," RS:",MENOR)
+
+Fimalgoritmo
+
+

@@ -1,0 +1,45 @@
+Algoritmo "PASSO 04 - REPETIÇÃO ENQUANTO    - EXERCICIO 52 - IDADE DE 10 PESSOAS"
+
+Var
+   // Seção de Declarações das variáveis
+   CONTADOR : INTEIRO
+   NOME :CARACTERE
+   IDADE,MEDIA, MAIOR18, MENOR5, MAIORID, SOMA :REAL
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   CONTADOR <- 1
+
+
+   ENQUANTO CONTADOR <= 10 FACA
+      //ESCREVA ("QUAL SEU NOME")
+      //LEIA (NOME)
+      ESCREVA ("QUAL A SUA IDADE: ")
+      LEIA (IDADE)
+      SOMA <-  SOMA + IDADE
+      MEDIA <- SOMA / CONTADOR
+
+      SE IDADE > 18 ENTAO
+      MAIOR18 <- MAIOR18 + 1
+      FIMSE
+
+      SE IDADE < 5 ENTAO
+      MENOR5 <- MENOR5 + 1
+      FIMSE
+      
+      SE IDADE > MAIORID ENTAO
+      MAIORID <- IDADE
+      FIMSE
+      
+      CONTADOR <- CONTADOR + 1
+
+   FIMENQUANTO
+
+   ESCREVAL ("")
+   ESCREVAL ("A MEDIA DE IDADE DO GRUPO É :->",MEDIA)
+   ESCREVAL ("QUANTAS PESSOAS TEM MAIR DE 18 ANOS", MAIOR18)
+   ESCREVAL ("QUANTAS PESSOAS TEM MENOS DE 05 ANOS", MENOR5)
+   ESCREVAL ("QUAL FOI A MAIOR IDADE", MAIORID)
+
+Fimalgoritmo
+

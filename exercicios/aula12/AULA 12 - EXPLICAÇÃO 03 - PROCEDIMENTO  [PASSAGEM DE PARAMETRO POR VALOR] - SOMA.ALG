@@ -1,0 +1,21 @@
+Algoritmo "AULA 12 - EXPLICAÇÃO 03 - PROCEDIMENTO  [PASSAGEM DE PARAMETRO POR VALOR] - SOMA"
+
+Var
+   // Seção de Declarações das variáveis
+   X, Y : INTEIRO
+
+PROCEDIMENTO SOMA (A, B: INTEIRO)
+   INICIO
+   ESCREVAL ("RECEBI O VALOR ",A)
+   ESCREVAL ("RECEBI O VALOR ",B)
+   ESCREVAL ("A SOMA ENTRE OS DOIS É ", A + B)
+FIMPROCEDIMENTO
+
+Inicio
+
+
+   X <- 5
+   Y <- 3
+
+   SOMA (X, Y)
+Fimalgoritmo

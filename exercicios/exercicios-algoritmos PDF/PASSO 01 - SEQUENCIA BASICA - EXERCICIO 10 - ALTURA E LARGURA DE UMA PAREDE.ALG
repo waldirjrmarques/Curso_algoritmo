@@ -1,0 +1,24 @@
+Algoritmo "PASSO 01 - SEQUENCIA BASICA - EXERCICIO 10 - ALTURA E LARGURA DE UMA PAREDE"
+
+Var
+// Seção de Declarações das variáveis 
+   ALTURA, LARGURA, METROQ, LITRO_TINTA, QUANT_LITRO : REAL
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   ESCREVA ("QUAL A ALTURA DA PAREDE:")
+   LEIA (ALTURA)
+   ESCREVA ("QUAL A LARGURA DA PAREDE:")
+   LEIA (LARGURA)
+
+   METROQ <- ALTURA * LARGURA
+   LITRO_TINTA <- 2
+   QUANT_LITRO <- METROQ / LITRO_TINTA
+
+   ESCREVAL ("A ÁREA A SER PINTADA É DE: ", METROQ," M2")
+   ESCREVAL ("SERÁ NECESSARIO ",QUANT_LITRO," LITROS DE TINTA PARA PINTAR ",METROQ," M2")
+
+
+
+Fimalgoritmo

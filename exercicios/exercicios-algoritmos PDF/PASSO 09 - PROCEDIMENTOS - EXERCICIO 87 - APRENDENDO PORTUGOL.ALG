@@ -1,0 +1,22 @@
+Algoritmo "PASSO 09 - PROCEDIMENTOS - EXERCICIO 87 - APRENDENDO PORTUGOL"
+
+Var
+
+PROCEDIMENTO GERADOR (MSG2 :CARACTERE)
+INICIO
+
+   ESCREVAL ("+-------====------+")
+   ESCREVAL (MSG2)
+   ESCREVAL ("+-------====------+")
+
+FIMPROCEDIMENTO
+
+
+Inicio
+
+
+   GERADOR ("APRENDENDO PORTUGOL")
+
+Fimalgoritmo
+
+

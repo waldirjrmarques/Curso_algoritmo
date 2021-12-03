@@ -1,0 +1,54 @@
+Algoritmo "PASSO 02 - CONDIÇÕES BÁSICAS - EXERCICIO 30 - TRIÂNGULO EQUILÁTERO,ISOCELES, ESCALENO  "
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+
+Var
+   // Seção de Declarações das variáveis
+
+   LADO1 , LADO2 , LADO3 : INTEIRO
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVA ("INFORME O 1° LADO:")
+   LEIA (LADO1)
+   ESCREVA ("INFORME O 2° LADO:")
+   LEIA (LADO2)
+   ESCREVA ("INFORME O 3° LADO:")
+   LEIA (LADO3)
+
+   SE  (LADO1 < LADO2 + LADO3) E (LADO2 < LADO1 + LADO3) E (LADO3 < LADO1 + LADO2) ENTAO
+      ESCREVAL ("PODE FORMAR UM TRIÂNGULO")
+   SENAO
+      ESCREVAL ("NAO PODE FORMAR UM TRIÂNGULO")
+   FIMSE
+   //
+
+   SE (LADO1 = LADO2) E (LADO2 = LADO3) E (LADO3 = LADO1) ENTAO
+      ESCREVAL ("PODE FORMAR UM TRIANGULO -> EQUILÁTERO")
+   SENAO
+        ESCREVAL ("NAO PODE FORMAR UM TRIÂNGULO -> EQUILÁTERO")
+   FIMSE
+   //
+   
+   SE (LADO1 = LADO2) E (LADO3 <> LADO1) E (LADO3 <> LADO2) ENTAO
+      ESCREVAL ("PODE FORMAR UM TRIANGULO -> ISÓSCELES")
+   SENAO
+      SE (LADO2 = LADO3) E (LADO1 <> LADO2) E (LADO1 <> LADO3) ENTAO
+         ESCREVAL ("PODE FORMAR UM TRIANGULO -> ISÓSCELES")
+      SENAO
+         SE (LADO3 = LADO1) E (LADO2 <> LADO3) E (LADO2 <> LADO1) ENTAO
+            ESCREVAL ("PODE FORMAR UM TRIANGULO -> ISÓSCELES")
+         SENAO
+            ESCREVAL ("NAO PODE FORMAR UM TRIÂNGULO -> ISÓSCELES")
+         FIMSE
+      FIMSE
+   FIMSE
+   //
+   
+    SE (LADO1 <> LADO2) E (LADO2 <> LADO3) E (LADO3 <> LADO1) ENTAO
+      ESCREVAL ("PODE FORMAR UM TRIANGULO -> ESCALENO")
+   SENAO
+      ESCREVAL ("NAO PODE FORMAR UM TRIÂNGULO ->  ESCALENO")
+   FIMSE
+
+Fimalgoritmo
+

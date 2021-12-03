@@ -1,0 +1,23 @@
+Algoritmo "AULA 09 - EXPLICAÇÃO 03 - ESTRUTURA DE REPETIÇÃO ENQUANTO..FAÇA - CONTAR ATE ONDE USUARIO SOLICITAR "
+
+Var
+// Seção de Declarações das variáveis
+   CONTADOR, NUMERO, PULO : INTEIRO
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVA ("DESEJA CONTAR ATE QUAL NUMERO?")
+   LEIA (NUMERO)
+   ESCREVA ("QUANTIDADE DE PULO?")
+   LEIA (PULO)
+
+
+   CONTADOR <- 0
+
+   ENQUANTO (CONTADOR <= NUMERO) FACA
+            ESCREVAL (CONTADOR)
+            CONTADOR <- CONTADOR + PULO
+   FIMENQUANTO
+
+   ESCREVA ("TERMINEI DE CONTAR")
+
+Fimalgoritmo

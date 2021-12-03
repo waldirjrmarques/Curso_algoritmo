@@ -1,0 +1,35 @@
+Algoritmo "AULA 09 - EXPLICAÇÃO 04 - ESTRUTURA DE REPETIÇÃO ENQUANTO..FAÇA - SOMADOR NUMERICO  MAIOR E MENOR "
+
+Var
+   // Seção de Declarações das variáveis
+   CONTADOR, NUMERO , SOMA, MAIOR, MENOR : INTEIRO
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+
+   CONTADOR <- 1
+   SOMA <- 0
+
+   ENQUANTO (CONTADOR <= 5) FACA
+      ESCREVA ("DIGITE O ", CONTADOR,"° VALOR : ")
+      LEIA (NUMERO)
+
+      SE (NUMERO > MAIOR) ENTAO
+         MAIOR <- NUMERO
+      FIMSE
+
+      SE (NUMERO < MENOR) OU (MENOR = 0) ENTAO
+       MENOR <- NUMERO
+
+      FIMSE
+
+      SOMA <- SOMA + NUMERO
+      CONTADOR <- CONTADOR + 1
+   FIMENQUANTO
+
+   ESCREVAL ("A SOMA DE TODOS OS VALORES FOI ",SOMA)
+   ESCREVAL ("O MAIOR NUMERO DIGITADO FOI ", MAIOR)
+   ESCREVAL ("O MENOR NUMERO DIGITADO FOI ", MENOR)
+
+Fimalgoritmo

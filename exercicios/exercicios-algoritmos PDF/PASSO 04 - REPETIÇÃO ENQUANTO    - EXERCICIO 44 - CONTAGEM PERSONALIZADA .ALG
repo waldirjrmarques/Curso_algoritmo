@@ -1,0 +1,26 @@
+Algoritmo "PASSO 04 - REPETIÇÃO ENQUANTO    - EXERCICIO 44 - CONTAGEM PERSONALIZADA "
+
+Var
+   // Seção de Declarações das variáveis
+   VALOR1, VALOR2 , INCREMENTO: INTEIRO
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVA ("DIGITE O PRIMEIRO VALOR:")
+   LEIA (VALOR1)
+   ESCREVA ("DIGITE O ULTIMO VALOR:")
+   LEIA (VALOR2)
+   ESCREVA ("DIGITE O INCREMENTO:")
+   LEIA (INCREMENTO)
+
+   SE VALOR1 <= VALOR2 ENTAO
+      ENQUANTO VALOR1 <= VALOR2 FACA
+         ESCREVA (VALOR1)
+         VALOR1 <- VALOR1  + INCREMENTO
+      FIMENQUANTO
+   FIMSE
+   
+
+   
+   
+Fimalgoritmo

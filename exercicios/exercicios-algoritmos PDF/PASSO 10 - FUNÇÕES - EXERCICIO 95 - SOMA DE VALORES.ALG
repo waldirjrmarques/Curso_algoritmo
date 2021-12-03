@@ -1,0 +1,23 @@
+Algoritmo "PASSO 10 - FUNÇÕES - EXERCICIO 95 - SOMA DE VALORES"
+
+Var
+
+   V1 , V2, RESP : INTEIRO
+
+FUNCAO SOMA (Y1, Y2:INTEIRO): INTEIRO
+  RETORNE Y1 + Y2
+
+FIMFUNCAO
+
+Inicio
+
+   ESCREVA ("INFORME O 1° VALOR:")
+   LEIA (V1)
+   ESCREVA ("INFORME O 2° VALOR:")
+   LEIA (V2)
+
+   RESP <- SOMA (V1, V2)
+   ESCREVA ("A SOMA ENTRE ",V1," +",V2," =",RESP)
+
+
+Fimalgoritmo

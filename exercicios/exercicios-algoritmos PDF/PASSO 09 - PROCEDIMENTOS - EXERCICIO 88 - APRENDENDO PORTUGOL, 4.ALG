@@ -1,0 +1,18 @@
+Algoritmo "PASSO 09 - PROCEDIMENTOS - EXERCICIO 88 - APRENDENDO PORTUGOL, 4"
+
+Var
+
+PROCEDIMENTO GERADOR (MSG2 :CARACTERE;  N:INTEIRO )
+VAR
+   C : INTEIRO
+INICIO
+     ESCREVAL ("+-------====------+")
+      PARA C := 1 ATE N FACA
+         ESCREVAL (MSG2)
+      FIMPARA
+      ESCREVAL ("+-------====------+")
+FIMPROCEDIMENTO
+
+Inicio
+   GERADOR ("APRENDENDO PORTUGOL", 4)
+Fimalgoritmo

@@ -1,0 +1,24 @@
+Algoritmo "PASSO 09 - PROCEDIMENTOS - EXERCICIO 86 - OLA MUNDO"
+
+Var
+   MSG1 :CARACTERE
+
+PROCEDIMENTO GERADOR (MSG2 : CARACTERE )
+INICIO
+   MSG2 <- "OLÁ, MUNDO!"
+   ESCREVAL ("+--====---+")
+   ESCREVAL (MSG2)
+   ESCREVAL ("+--====---+")
+
+FIMPROCEDIMENTO
+
+
+Inicio
+
+   //MSG1 <- "OLÁ, MUNDO!"
+
+   GERADOR (MSG1)
+
+Fimalgoritmo
+
+

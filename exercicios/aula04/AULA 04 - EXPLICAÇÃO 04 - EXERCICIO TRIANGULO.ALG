@@ -1,0 +1,31 @@
+Algoritmo "AULA 04 - EXPLICAÇÃO 04 - EXERCICIO TRIANGULO"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+
+Var
+//
+   LADO1, LADO2, LADO3: REAL
+   EQUILATERO, ESCALENO, TRIANGULO: LOGICO
+
+Inicio
+//
+      ESCREVA ("DIGITE O 1° LADO DO TRINAGULO: ")
+      LEIA (LADO1)
+      ESCREVA ("DIGITE O 2° LADO DO TRINAGULO: ")
+      LEIA (LADO2)
+      ESCREVA ("DIGITE O 3° LADO DO TRINAGULO: ")
+      LEIA (LADO3)
+
+       TRIANGULO  <- ((LADO1 < LADO2 + LADO3) E (LADO2 < LADO1 + LADO3) E (LADO3 < LADO1 + LADO2))
+       EQUILATERO <- ((LADO1 = LADO2) E (LADO2 = LADO3))
+       ESCALENO   <- ((LADO1 <> LADO2) E (LADO2 <> LADO3) E (LADO3 <> LADO1))
+
+       ESCREVAL  ("PODE SER UM TRIANGULO: ", TRIANGULO)
+       ESCREVAL  ("O TRIANGULO É EQUILÁTERO: ",EQUILATERO)
+       ESCREVAL  ("O TRIANGULO É ESCALENO: ", ESCALENO)
+
+
+
+
+
+Fimalgoritmo

@@ -1,0 +1,14 @@
+Algoritmo "PASSO 01 - SEQUENCIA BASICA - EXERCICIO 02 - LER NOME BOAS VINDAS"
+
+Var
+//
+
+   NOME :CARACTERE
+Inicio
+//
+     ESCREVA ("QUAL SEU NOME: ")
+     LEIA (NOME)
+     
+     ESCREVA ("BOAS-VINDA ", NOME)
+
+Fimalgoritmo

@@ -1,0 +1,31 @@
+Algoritmo "PASSO 03 - CONDIÇÕES COMPOSTAS - EXERCICIO 28 - ARÉA DO TERRENO M²"
+
+Var
+// Seção de Declarações das variáveis 
+   LARG_FREN , LARG_FUND , COMP_ESQ, COMP_DIR , METROQ :REAL
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    ESCREVA ("INFOME QUANTOS MT DE LARGURA {FRENTE}")
+    LEIA(LARG_FREN)
+    ESCREVA ("INFOME QUANTOS MT DE LARGURA {FUNDO}")
+    LEIA(LARG_FUND)
+    ESCREVA ("INFOME QUANTOS MT DE COMPRIMENTO {LADO ESQUERDO}")
+    LEIA(COMP_ESQ)
+    ESCREVA ("INFOME QUANTOS MT DE COMPRIMENTO {LADO DIRETO}")
+    LEIA(COMP_DIR)
+    
+    METROQ <- ((LARG_FREN + LARG_FUND)/ 2)*((COMP_ESQ + COMP_DIR) / 2)
+    
+    ESCREVAL ("M²=",METROQ)
+    
+    SE (METROQ < 100) ENTAO
+       ESCREVA ("TERRENO POPULAR")
+    SENAO
+         SE (METROQ >= 100) E (METROQ <= 500) ENTAO
+            ESCREVA ("TERRENO MASTER")
+         SENAO
+              ESCREVA ("TERRENO VIP")
+         FIMSE
+    FIMSE
+Fimalgoritmo

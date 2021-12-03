@@ -1,0 +1,30 @@
+algoritmo "PASSO 08 - VETORES - EXERCICIO 85 - NOME SEXO E SALÁRIO DE 5 FUNCIONARIOS "
+
+var
+  NOME:    vetor[1..5] de CARACTERE
+  SEXO:    vetor[1..5] de CARACTERE
+  SALARIO: vetor[1..5] de REAL
+  C:INTEIRO
+
+
+
+inicio
+para C <- 1 ate 5 faca
+ESCREVA ("INFORME SEU NOME:")
+LEIA (NOME[C])
+ESCREVA ("INFORME SEU SEXO:[M / F]")
+LEIA (SEXO[C])
+ESCREVA ("INFORME SEU SALARIO:")
+LEIA (SALARIO[C])
+FIMPARA
+
+
+para C <- 1 ate 5 faca
+SE (SEXO[C] = "F") E (SALARIO[C] > 5.000)  ENTAO
+
+ESCREVAL (C,"° ","-->","SEXO: ",NOME[C]," SALARIO: R$:",SALARIO[C]:1:3)
+FIMSE
+FIMPARA
+
+
+FIMALGORITMO

@@ -1,0 +1,32 @@
+Algoritmo "PASSO 09 - PROCEDIMENTOS - EXERCICIO 91 - NUMERO MAIOR"
+
+Var
+
+   V1 , V2 : INTEIRO
+
+PROCEDIMENTO MAIOR (Y1, Y2:INTEIRO)
+INICIO
+
+   SE (Y1 = Y2) ENTAO
+      ESCREVA ("VALORES IGUAIS ")
+   SENAO
+      SE (Y1 > Y2 ) ENTAO
+         ESCREVA (Y1," É MAIOR")
+      SENAO
+         ESCREVA (Y2," É MAIOR")
+      FIMSE
+   FIMSE
+
+
+FIMPROCEDIMENTO
+
+Inicio
+
+   ESCREVA ("INFORME O 1° VALOR:")
+   LEIA (V1)
+   ESCREVA ("INFORME O 2° VALOR:")
+   LEIA (V2)
+
+   MAIOR (V1, V2)
+
+Fimalgoritmo

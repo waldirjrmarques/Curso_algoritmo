@@ -1,0 +1,39 @@
+Algoritmo "PASSO 10 - FUNÇÕES - EXERCICIO 97 - NUMERO MAIOR"
+
+Var
+
+   V1 , V2 , V3 , RESP : INTEIRO
+
+FUNCAO MAIOR (Y1, Y2, Y3:INTEIRO): INTEIRO
+INICIO
+
+   SE (Y1 > Y2 ) E (Y1 > Y3) ENTAO
+      RETORNE (Y1)
+   SENAO
+      SE (Y2 > Y1) E (Y2 > Y3) ENTAO
+         RETORNE (Y2)
+      SENAO
+         SE (Y3 > Y1) E (Y3 > Y2) ENTAO
+            RETORNE (Y3)
+         FIMSE
+      FIMSE
+   FIMSE
+
+
+
+FIMFUNCAO
+
+Inicio
+
+   ESCREVA ("INFORME O 1° VALOR:")
+   LEIA (V1)
+   ESCREVA ("INFORME O 2° VALOR:")
+   LEIA (V2)
+   ESCREVA ("INFORME O 3° VALOR:")
+   LEIA (V3)
+
+   RESP <- MAIOR (V1, V2, V3)
+
+   ESCREVA ("O MAIOR NUMERO É ",RESP)
+
+Fimalgoritmo

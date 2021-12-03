@@ -1,0 +1,48 @@
+Algoritmo "PASSO 04 - REPETIÇÃO ENQUANTO    - EXERCICIO 54 - PESO E ALTURA DE 7 PESSOAS"
+
+Var
+   // Seção de Declarações das variáveis
+   ALTURA, MEDIA_AL,MAIOR90, MENOR50, MAIOR100  : REAL
+   CONTADOR , PESO: INTEIRO
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   CONTADOR <- 1
+
+
+   ENQUANTO CONTADOR <= 2 FACA
+
+
+      ESCREVA ("QUAL SEU PESO?")
+      LEIA (PESO)
+      ESCREVA ("QUAL SUA ALTURA?")
+      LEIA (ALTURA)
+
+      MEDIA_AL <- (MEDIA_AL + ALTURA) / CONTADOR
+
+      SE (PESO > 90) ENTAO
+         MAIOR90 <- MAIOR90 + 1
+      FIMSE
+
+        SE (ALTURA < 1.60) E (PESO < 50) ENTAO
+       MENOR50 <- MENOR50 + 1
+      FIMSE
+
+      
+      SE (ALTURA > 1.90) E (PESO > 100) ENTAO
+        MAIOR100 <- MAIOR100 + 1
+      FIMSE
+      
+
+      
+      CONTADOR <- CONTADOR + 1
+      FIMENQUANTO
+
+      ESCREVAL ("A MÉDIA DA ALTURA DO GRUPO FOI ", MEDIA_AL)
+      ESCREVAL ("QUANTAS PESSOAS PESAM MAIS QUE 90 KG ",MAIOR90)
+      ESCREVAL ("QUANTAS PESSOAS PESAM MENOS QUE 50 KG E COM ALTURA MENOR DE 1.60? ",MENOR50)
+      ESCREVAL ("QUANTAS PESSOAS PESAM MAIS DE 100 KG E COM A ALTURA MAIOR QUE 1.90 ",MAIOR100)
+
+
+
+Fimalgoritmo
